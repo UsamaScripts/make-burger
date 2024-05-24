@@ -1,0 +1,47 @@
+.header {
+  padding-left: 40px;
+  padding-right: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #703b0a;
+  box-sizing: border-box;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+}
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 28px;
+  border-bottom: 6px solid transparent;
+  transition: border-color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #965417;
+  border-bottom-color: green;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+li:hover a {
+  color: white;
+}

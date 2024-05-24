@@ -1,0 +1,63 @@
+.burger {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.burger-top {
+  height: 70px;
+  width: 20%;
+  background-color: #dc7532;
+  border-top-left-radius: 400px 160px;
+  border-top-right-radius: 400px 160px;
+  box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.salad {
+  height: 15px;
+  width: 20%;
+  background-color: #5cb85c; /* Green color for salad */
+  border-radius: 0px; /* Rounded corners */
+  margin: 4px 0; /* Add some space between ingredients */
+}
+
+.bacon {
+  height: 20px;
+  width: 20%;
+  background-color: #d9534f;
+  border-radius: 5px;
+  margin: 2px 0;
+}
+
+.cheese {
+  height: 30px;
+  width: 20%;
+  background-color: #f0ad4e;
+  border-radius: 2px;
+  margin: 1px 0;
+}
+
+.meat {
+  height: 30px;
+  width: 21%;
+  background-color: #793307;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.burger-bottom {
+  height: 70px;
+  width: 20%;
+  background-color: #dc7532;
+  border-bottom-left-radius: 400px 160px;
+  border-bottom-right-radius: 400px 160px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.pleaseadd {
+  height: 20px;
+}

@@ -1,0 +1,61 @@
+.footer-background {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cf8f2e;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ingridiant {
+  display: flex;
+  gap: 30px;
+  font-size: 24px; /* Adjusted font size */
+}
+
+.less-button,
+.more-button,
+.order-button {
+  width: 120px; /* Reduced width by 20% */
+  height: 36px; /* Reduced height by 20% */
+  padding: 5px 10px; /* Adjusted padding */
+  font-size: 14px; /* Adjusted font size */
+  background-color: #ffa500; /* Orange background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.less-button:hover,
+.more-button:hover,
+.order-button:hover {
+  background-color: #ff7f00; /* Darker orange on hover */
+}
+
+.order-button {
+  width: auto; /* Auto width for the order button */
+  padding: 10px 20px; /* Adjusted padding for the order button */
+  font-size: 16px; /* Adjusted font size */
+  background-color: #4caf50; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.less-button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
