@@ -2,8 +2,10 @@ import React from "react";
 import Modal from "react-modal";
 import { useSelector } from "react-redux";
 import "./Dialog.css";
+import { useNavigate } from "react-router-dom";
 Modal.setAppElement("#root");
 const CheckoutModal = ({ isOpen, onClose }) => {
+  const navigate = useNavigate();
   const data = useSelector((state) => state.BurgerBuilderSlice.ingredients);
   const totalPrice = useSelector(
     (state) => state.BurgerBuilderSlice.totalPrice
@@ -26,7 +28,9 @@ const CheckoutModal = ({ isOpen, onClose }) => {
           ))}
         </ul>
         <p> Total Price : PKR {totalPrice}</p>
-        <button onClick={onClose}>CheckOut To Place Order</button>
+        <button onClick={() => navigate("./checkout")}>
+          CheckOut To Place Order
+        </button>
       </Modal>
     </div>
   );

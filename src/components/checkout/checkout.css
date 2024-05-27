@@ -1,0 +1,72 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  box-sizing: border-box;
+}
+.continue {
+  padding: 20px 30px;
+  font-size: 16px;
+  color: green;
+  cursor: pointer;
+}
+button:disabled {
+  color: gray;
+  background-color: #ccc;
+}
+
+.cancel {
+  padding: 20px 30px;
+  font-size: 16px;
+  color: red;
+  cursor: pointer;
+}
+
+.order-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.order-container div:first-child {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+  border-color: #a7c9b1;
+}
+
+button {
+  background-color: #c0c9d4;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #703b0a;
+}
